@@ -134,6 +134,7 @@ function ansFunc(){
         opt3.onclick = function opta(){
             document.getElementById("result").style.color = "blue"
             document.getElementById("result").innerHTML = "Your Answer is Right!"
+            count++
             setTimeout(Next, 1000);
             opt1.style.display = "none"
             opt2.style.display = "none"
@@ -234,7 +235,6 @@ function ansFunc(){
         opt2.onclick = function opta(){
             document.getElementById("result").style.color = "red"
             document.getElementById("result").innerHTML = "Your Answer is Wrong!"
-            count++
             setTimeout(Next, 1000);
             opt1.style.display = "none"
             opt2.style.display = "none"
@@ -261,6 +261,7 @@ function ansFunc(){
         opt4.onclick = function opta(){
             document.getElementById("result").style.color = "blue"
             document.getElementById("result").innerHTML = "Your Answer is Right!"
+            count++
             setTimeout(Next, 1000);
             opt1.style.display = "none"
             opt2.style.display = "none"
