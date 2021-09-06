@@ -1,0 +1,19 @@
+button{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+
+h1{
+    font-size: 70px;
+    color: blue;
+}
+
+#star{
+    display: none;
+}
+ 
+#demo{
+    font-size: 40px;
+    color: darkseagreen;
+}
